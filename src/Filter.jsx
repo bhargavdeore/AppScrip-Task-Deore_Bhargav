@@ -15,7 +15,6 @@ function DropdownMenu() {
   return (
     <>
       <div className="app">
-        <span style={{ fontWeight: "bold" }}>3645</span>
         <a href="#" onClick={toggleData} className="ms-5 text-secondary ">
           {showFilter ? "Hide Filter" : "Show Filter"}
         </a>
