@@ -1,0 +1,50 @@
+
+
+.Logo {
+    font-weight: bolder;
+    font-size: 20px !important;
+    position: relative;
+    
+  }
+  
+  .index {
+    font-weight: 600;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  @media (max-width: 992px) {
+    .Logo {
+      left: auto !important;
+      text-align: center;
+    }
+    .index {
+      left: auto !important;
+    }
+    .Languages {
+      bottom: auto !important;
+    }
+   
+  }
+  
+  @media (max-width: 768px) {
+    .Navbar-brand,
+    .index {
+      position: static !important;
+    }
+    .icons {
+      position: static !important;
+      margin-top: 10px;
+    }
+    .Logo img{
+      position: relative;
+      right: 20px;
+    }
+    .logo-text{
+      position: relative;
+      left: 20px;
+    }
+  }
+  
